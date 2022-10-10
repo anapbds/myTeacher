@@ -42,7 +42,7 @@ const Home: NextPage = () => {
 
   return (
     <Box sx={{backgroundColor: 'secondary.main'}}> 
-      <Lista></Lista>
+      <Lista professores={professores}></Lista>
     </Box>
   )
 }
